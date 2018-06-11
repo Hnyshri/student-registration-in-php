@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(image.jpeg) !important;
+}
+input[type=text], input[type=password], input[type=date],textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.modal {
+    position: fixed; 
+    left: 20em;
+    top: 2em;
+    width: 40%; 
+    height:60%;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+} 
+.container {
+    padding: 16px;
+}
+.modal1 {
+    position: absolute; 
+    left: 20em;
+    top: 0em;
+    width: 50%; 
+    height:23cm;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}   
+.container1 {
+    padding: 20px;
+    margin: 60px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%; 
+}
+.modal-content1 {
+    background-color: #fefefe;
+    margin: 1% auto 15% auto;
+    width: 95%; 
+}
+.log{
+    text-align: right;
+    margin-right: 8em;
+    margin-top: -50px;
+}
+.back-page{
+    text-align: left;
+    margin-left: 8em;
+    margin-top: 30px;
+}
